@@ -1,0 +1,121 @@
+<html>
+    <head>
+        <title>Football Information</title>
+        <!-- Include online bootstrap css and jquery files -->
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+        <!--Include custom.js-->
+        <script src="custom.js"></script>
+          <!--Create a function to display the full information on read more button -->
+          <script>
+            function readMore() {
+              //Create a variable to get the hidden modal
+              var more = document.getElementById("more");
+              //Create a variable to get the read more button
+              var btnText = document.getElementById("readMore");
+              //Create a if condition to check the display style of hidden modal
+              if (more.style.display === "none") {
+                //If the condition is true then display the hidden modal
+                more.style.display = "block";
+                //Change the read more button text to read less
+                btnText.innerHTML = "Read less";
+              } else {
+                //If the condition is false then hide the hidden modal
+                more.style.display = "none";
+                //Change the read less button text to read more
+                btnText.innerHTML = "Read more";
+              }
+            }
+         </script>
+    <body>
+       <!--Include navigation bar and add messi and ronaldo tab-->
+       <nav >
+            <ul class="nav nav-tabs">
+                <li class="active"><a href="#">Home</a></li>
+                <li><a href="C:\Users\MY PC\Desktop\demo - user form\Football\MessiBiography.html">Messi</a></li>
+                <li><a href="C:\Users\MY PC\Desktop\demo - user form\Football\Ronaldo.html">Ronaldo</a></li>
+                <!-- Include Zlatan.html in the navigation bar-->
+                <li><a href="C:\Users\MY PC\Desktop\demo - user form\Football\Zlatan.html">Zlatan</a></li>
+                <!--Include Neymar.html in the navigation bar-->
+                <li><a href="C:\Users\MY PC\Desktop\demo - user form\Football\Neymar.html">Neymar</a></li>
+               
+            </ul>
+        </nav>
+        <!--Create a div to display the football information-->
+        <div class="container-fluid">
+            <div class="row">
+                <div class="col-md-12">
+                    <div id="FootballInfo">
+                        <!--Include some information about football and some leading players and clubs in short-->
+                        <h1>Football</h1>
+                        <p>Football is a family of team sports that involve, to varying degrees, kicking a ball with the foot to score a goal. Unqualified, the word football is understood to refer to whichever form of football is the most popular in the regional context in which the word appears. Sports commonly called football in certain places include: association football (known as soccer in some countries); gridiron football (specifically American football or Canadian football); Australian rules football; rugby football (either rugby league or rugby union); and Gaelic football. These different variations of football are known as football codes.</p>
+                        <p>Various forms of football can be identified in history, often as popular peasant games. Contemporary codes of football can be traced back to the codification of these games at English public schools during the nineteenth century. The expanse of the British Empire allowed these rules of football to spread to areas of British influence outside of the directly controlled Empire. By the end of the nineteenth century, distinct regional codes were already developing: Gaelic football, for example, deliberately incorporated the rules of local traditional football games in order to maintain their heritage. In 1888, The Football League was founded in England, becoming the first of many professional football competitions. During the twentieth century, several of the various kinds of football grew to become some of the most popular team sports in the world.</p>
+                        <p>The various codes of football share certain common elements and can be grouped into two main classes of football: carrying codes like American football, Canadian football, Australian football, rugby union and rugby league, where the ball is moved about the field while being held in the hands or thrown, and kicking codes such as Association football and Gaelic football, where the ball is moved primarily with the feet, and where handling is strictly limited.</p>
+                        <p>Common rules among the sports include:</p>
+                        <ul>
+                            <li>Two teams of usually between 11 and 18 players; some variations that have fewer players (five or more per team) are also popular.</li>
+                            <li>A clearly defined area in which to play the game.</li>
+                            <li>Scoring goals or points by moving the ball to an opposing team's end of the field and either into a goal area, or over a line.</li>
+                            <li>Goals or points resulting from players putting the ball between two goalposts.</li>
+                            <li>The goal or line being defended by the opposing team.</li>
+                            <li>Players being required to move the ball—depending on the code—by kicking, carrying, or hand-passing the ball.</li>
+                            <li>Players using only their body to move the ball.</li>
+                            <li>In all codes, common skills include passing, tackling, evasion of tackles, catching and kicking.</li>
+
+                                                    </div>
+                                                    <!--Create a read more button and onclick event on it-->
+                                                    <button type="button" id="readMore" class="btn btn-primary" onclick="readMore()">Read more</button>
+                                                    <!--Create a hidden modal for readMore-->
+                                                    <div id="more" style="display:none">
+                                                        <!--Create a div to display the football information-->
+                                                        <div id="FootballInfo">
+                                                            <!-- Include information of leading clubs-->
+                                                            <h1>Leading Clubs</h1>
+                                                            <p>Football clubs are a central part of Scotland's culture. The country has several teams that play in the Scottish Professional Football League (SPFL), with the top division being the Scottish Premiership. There are also many teams that play in the Highland Football League and Lowland Football League, the fifth and sixth tiers of the Scottish football league system, respectively. Many of these teams are full-time professional outfits, while others are semi-professional or amateur.</p>
+                                                            <p>There are also many football clubs in Scotland that are not members of the SPFL. These clubs play in one of the Scottish Junior Football Association's three regions: the SJFA North Region, the SJFA East Region, and the SJFA West Region. The SJFA also has a national cup competition, the Scottish Junior Cup.</p>
+                                                            <p>There are also a number of independent senior clubs, such as Banks O' Dee F.C., who play in the Aberdeenshire AFA.</p>
+                                                            <p>There are also many amateur football clubs in Scotland. These clubs play in the Scottish Amateur Football Association's three regions: the SAFA North Region, the SAFA East Region, and the SAFA West Region. The SAFA also has a national cup competition, the Scottish Amateur Cup.</p>
+                                                            <p>There are also a number of independent amateur clubs, such as Banks O' Dee F.C., who play in the Aberdeenshire AFA.</p>
+                                                            <p>There are also many amateur football clubs in Scotland. These clubs play in the Scottish Amateur Football Association's three regions: the SAFA North Region, the SAFA East Region, and the SAFA West Region. The SAFA also has a national cup competition, the Scottish Amateur Cup.</p>
+                                                            <p>There are also a number of independent amateur clubs, such as Banks O' Dee F.C., who play in the Aberdeenshire AFA.</p>
+                                                            <p>There are also many amateur football clubs in Scotland. These clubs play in the Scottish Amateur Football Association's three regions: the SAFA North Region, the SAFA East Region, and the SAFA West Region. The SAFA also has a national cup competition, the Scottish Amateur Cup.</p>
+                                                            <p>There are also a number of independent amateur clubs, such as Banks O' Dee F.C., who play in the Aberdeenshire AFA.</p>
+                                                            <p>There are also many amateur football clubs in Scotland. These clubs play in the Scottish Amateur Football Association's three regions: the SAFA North Region, the SAFA East Region, and the SAFA West Region. The SAFA also has a national cup competition, the Scottish Amateur Cup.</p>
+                                                            <p>There are also a number of independent amateur clubs, such as Banks O' Dee F.C., who play in the Aberdeenshire AFA.</p>
+                                                            <p>There are also many amateur football clubs in Scotland. These clubs play in the Scottish Amateur Football Association's three regions: the SAFA North Region, the SAFA East Region, and the SAFA West Region. The SAFA also has a national cup competition, the Scottish Amateur Cup.</p>
+                                                            <p>There are also a number of independent amateur clubs, such as Banks O' Dee F.C., who play in the Aberdeenshire AFA.</p>
+                                                            <p>There are also many amateur football clubs in Scotland. These clubs play in the Scottish Amateur Football Association's three regions: the SAFA North Region, the SAFA East Region, and the SAFA West Region. The SAFA also has a national cup competition, the Scottish Amateur Cup.</p>
+                                                            <p>There are also a number of independent amateur clubs, such as Banks O' Dee F.C., who play in the Aberdeenshire AFA.</p>
+                                                        </div>
+                                                    </div>
+
+                                                            
+                                                            <!--Create a read less button and onclick event on it
+                                                            <button type="button" id="readLess" class="btn btn-primary" onclick="readLess()">Read less</button> -->
+                                                  
+                </div>
+            </div>
+        </div>
+        <!--Create a div to display the football video-->
+        <div class="container-fluid">
+            <div class="row">
+                <div class="col-md-12">
+                    <h1>Football Video</h1>
+
+                        <!-- Include a youtube video related to football-->
+                        <iframe width="1280" height="720" src="https://www.youtube.com/embed/4v-rIjHpyEk" title="Best Goals of the Year 2022" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+                </div>
+            </div>
+        </div>
+        <!--Include footer-->
+        <nav class="navbar navbar-default navbar-fixed-bottom">
+            <div class="container">
+                <p class="navbar-text pull-left">© 2023 - Site Built By AI</p>
+            </div>
+       </nav>
+        
+
+    </body>
+    </head>
+</html>

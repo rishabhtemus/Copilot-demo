@@ -1,0 +1,20 @@
+ <!-- Include bootstrap and jquery online-->
+
+ <!--create back button to go back to main.html page-->
+
+ <!-- Include navigation bar -->
+
+<!-- Include online image url and biography -->
+
+ <!--Include read more modal and button-->
+
+ <!--Include table of statistic-->
+
+<!-- Include footer -->
+
+
+Neymar
+
+https://www.fcbarcelona.com/photo-resources/2020/04/14/e749a006-66a3-4e3b-b1f1-d804d669983d/NEYMAR.png?width=600&height=820
+
+https://thispersondoesnotexist.com/
